@@ -70,6 +70,9 @@ main(void)
     //
     // Check if the peripheral access is enabled.
     //
+    //
+    // New branch
+    //
     while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPION))
     {
     }
